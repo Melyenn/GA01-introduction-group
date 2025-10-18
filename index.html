@@ -3,52 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Team Introduction</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
     <nav>
-      <ul class="nav-right">
+      <ul class="nav-left">
         <li class="team-name"><a href="#">Team's name</a></li>
       </ul>
-      <ul class="nav-left">
-        <li><a href="#">About us</a></li>
+      <ul class="nav-right">
+        <li><a href="#">About Us</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+
+     
+      <label for="nav-toggle" class="icon-bar">
+        <img src="bars-solid.svg" alt="">
+      </label>
+      <input type="checkbox" id="nav-toggle" style="display: none;">
+
+      <aside class="side-bar">
+        <p class="side-bar-title">Welcome, Guest</p>
+        <hr style="height: 1px; background-color: gray; border: none; width: 100%;">
+        <ul class="side-bar-bottom">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </aside>
+
+      <div class="overlay"></div>
     </nav>
   </header>
-
+  <hr style="height: 1px; background-color: gray; border: none; width: 100%;">
+  
   <main>
     <h1>Who we are?</h1>
     <p>We are a team of developers who are passionate about creating beautiful and functional websites.</p>
-    <div class="team-members">
-      <a href="">
+    
+    <section class="team-members">
+      <a class="member" href="#">
         <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Image%20FP_2024/avatar-cute-3.jpg" alt="">
         <p>Mai Thị Kim Duyên</p>
         <p>23127185</p>
       </a>
-      <a href="">
+      <a class="member" href="#">
         <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Image%20FP_2024/avatar-cute-3.jpg" alt="">
         <p>Lê Trung Kiên</p>
         <p>23127075</p>
       </a>
-      <a href="">
+      <a class="member" href="#">
         <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Image%20FP_2024/avatar-cute-3.jpg" alt="">
         <p>Huỳnh Hạo Nam</p>
         <p>23127431</p>
+        </div>
       </a>
-      <a href="">
+      <a class="member" href="#">
         <img src="https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Image%20FP_2024/avatar-cute-3.jpg" alt="">
         <p>Lê Thanh Hải</p>
         <p>23127360</p>
       </a>
-    </div>
+    </section>
   </main>
 
+  <hr style="height: 1px; background-color: gray; border: none; width: 100%;">
   <footer>
     <p>Made with by Melyen, TKin, Hownameee, Hari © Team's name</p>
     <a>Privacy</a>
   </footer>
+
+  
 </body>
 </html>
